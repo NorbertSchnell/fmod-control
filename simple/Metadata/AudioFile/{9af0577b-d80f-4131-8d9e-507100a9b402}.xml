@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9af0577b-d80f-4131-8d9e-507100a9b402}">
+		<property name="assetPath">
+			<value>tresheureuse.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.58578231292517002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d7af0b2b-81c5-40a5-9de6-1b16dcd7836e}</destination>
+		</relationship>
+	</object>
+</objects>
