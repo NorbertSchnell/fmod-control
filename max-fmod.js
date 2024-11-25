@@ -14,7 +14,8 @@ let parameterPath = null;
 
         FMOD.evoke(`
           var event = studio.project.lookup("event:${path}");
-      `);
+          studio.window.navigateTo(event);
+        `);
       }
     } else {
       console.error('missing event path');
@@ -27,8 +28,8 @@ let parameterPath = null;
         parameterPath = path;
 
         FMOD.evoke(`
-        var parameter = studio.project.lookup("parameter:${path}").parameter;
-      `);
+          var parameter = studio.project.lookup("parameter:${path}").parameter;
+        `);
       }
     } else {
       console.error('missing parameter path');
